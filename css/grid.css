@@ -1,14 +1,16 @@
 section.grid {
-    margin-top: 10px;
     display: grid;
     grid-template-columns: auto auto;
+    /* TODO: manage gap to eliminate sideways scroll */
     gap: 10px;
 }
 
 section.grid div {
     width: 100%;
-    height: 400px;
-    background-color: aqua;
+    height: 500px;
+    padding: 40px;
+    margin: 10px;
+    background-color: var(--whitish);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,4 +24,11 @@ section.grid div h2 {
 letter-spacing: normal;
     font-weight: 400;
 font-size: 22px;
+}
+
+section.grid .macbook {
+    background: #FBFBFD url("/assets/images/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg") no-repeat center;
+    background-size: cover;
+    background-size: 80%;
+
 }
