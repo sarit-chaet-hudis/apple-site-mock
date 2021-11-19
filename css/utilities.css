@@ -1,3 +1,26 @@
+:root {
+  --black: #333333;
+  --blue: #0066cc;
+  --red: #e34140;
+  --light-gray: #eeeffe;
+  --whitish: #fbfbfd;
+  --menu-text: #d6d6d6;
+  --black-text: #1d1d1f;
+}
+
+@font-face {
+  font-family: SF-Pro-Text;
+  src: url("/assets/fonts/SFPRODISPLAYREGULAR.woff");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "SF-Pro-Text", Helvetica, sans-serif;
+  letter-spacing: 0.05rem;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
 a {
   cursor: pointer;
   text-decoration: none;
@@ -19,6 +42,8 @@ a.link , a.link:visited {
   color: var(--blue) ;
   letter-spacing: 0.05rem;
   display: inline;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 section {
