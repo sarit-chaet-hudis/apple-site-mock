@@ -15,12 +15,49 @@ footer {
   footer .fine-print {
     margin-top: 10px;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 26px;
     color: #7C7C80;
   
   }
+
+  footer .fine-print a, footer .fine-print a:visited {
+    color: #7C7C80;
+  
+  }
+
+  footer .fine-print a:hover {
+    text-decoration: underline;
+  }
+
+  footer .footer-content-wrap .directory-wrap {
+    padding-top: 15px;
+    border-top: 1px solid #D2D2D7;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-bottom: 15px;
+  }
+
+footer .directory-wrap .dir-column {
+  width: auto;
+}
+
+  footer .directory-title{
+    color: #373739;
+  }
   
   footer .copyright-nav {
+    border-top: 1px solid #D2D2D7;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+  }
+
+  footer .copyright-nav .bottom-nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+
+  footer .copyright-nav .bottom-nav li {
+    padding-right: 15px;
   }
