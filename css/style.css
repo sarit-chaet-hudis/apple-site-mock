@@ -16,6 +16,7 @@
 * {
   box-sizing: border-box;
   font-family: "SF-Pro-Text", Helvetica, sans-serif;
+  letter-spacing: 0.05rem;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
@@ -24,6 +25,8 @@
 .top-menu {
   padding: 0;
   background-color: var(--black);
+  position: sticky;
+  top: 0;
 }
 
 .top-menu ul {
@@ -35,9 +38,9 @@
 .top-menu li a,
 .top-menu li a:visited {
   font-size: 12px;
-  line-height: 44px;
+  line-height: 40px;
   color: var(--menu-text);
-  padding: 0px 23px;
+  padding: 0px 21px;
   font-weight: 300;
 }
 
@@ -47,16 +50,15 @@
   align-content: center;
   background-color: var(--red);
   color: white;
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 100;
   padding: 10px;
   height: 45px;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.shop-now a:visited {
+  color: white;
 }
 
 section.main {
@@ -71,10 +73,15 @@ section.main {
   background-position-x: center;
   height: 90px;
   width: 100px;
-  
+}
+
+section div.image-wrapper {
+  margin: 30px 0;
 }
 
 section.iphone-pro {
+  margin-top: 10px;
+  background-color: var(--whitish);
   max-height: 120vh;
   min-height: 70vh;
   background-image: url("/assets/images/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg");
