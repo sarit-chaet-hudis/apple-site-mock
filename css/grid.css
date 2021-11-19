@@ -1,34 +1,89 @@
 section.grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    /* TODO: manage gap to eliminate sideways scroll */
-    gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin: 10px;
 }
 
 section.grid div {
-    width: 100%;
-    height: 500px;
-    padding: 40px;
-    margin: 10px;
-    background-color: var(--whitish);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  height: 600px;
+  padding: 40px;
+  background-color: var(--whitish);
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 section.grid div h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 section.grid div h2 {
-letter-spacing: normal;
-    font-weight: 400;
-font-size: 22px;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 section.grid .macbook {
-    background: #FBFBFD url("/assets/images/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg") no-repeat center;
-    background-size: cover;
-    background-size: 80%;
-
+  background: #fbfbfd
+    url("/assets/images/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg") no-repeat
+    center ;
+  background-size: cover;
 }
+
+section.grid .airpods {
+  background: #fbfbfd
+    url("/assets/images/tile_airpods__fuv6vgn42y2q_medium_2x.jpg") no-repeat
+    center 0;
+  background-size: cover;
+  padding-top: 460px;
+}
+section.grid .homepod {
+    background: #fbfbfd
+      url("/assets/images/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg") no-repeat
+      center;
+    background-size: cover;
+  }
+section.grid .watch {
+  background: #F5F5F7
+    url("/assets/images/tile_watch__e9n11b6m6yq2_medium_2x.jpg") no-repeat
+    center ;
+  background-size: cover;
+}
+
+section.grid .card {
+    
+    background: #fbfbfd url("/assets/images/tile__cauwwcyyn9hy_medium_2x.jpg") no-repeat
+      center ;
+    background-size: 50% ;
+  }
+
+  section.grid .tv {
+    background: var(--light-gray2) 
+      url("/assets/images/promo_dickinson__c9ea4l2f5rki_medium_2x.jpg") no-repeat
+      center ;
+    background-size: cover ;
+    position: relative;
+    z-index: -10;
+  }
+
+  section.grid .tv .tv-logo {
+    margin-top: 20px;
+  } 
+
+  section.grid .tv .logo-dickinson {
+    color: white;
+    position: absolute;
+    bottom: 100px;
+  } 
+
+  section.grid .tv .stream {
+    color: white;
+    position: absolute;
+    bottom: 40px;
+  } 
+
+
