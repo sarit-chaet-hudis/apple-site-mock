@@ -99,19 +99,3 @@ section.iphone-13 a:visited {
   color: #2a91f5;
 }
 
-footer {
-  padding-top: 20px;
-  background-color: var(--light-gray2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-footer .fine-print {
-  margin-top: 10px;
-  width: 60%;
-  font-size: 12px;
-  line-height: 18px;
-  color: #7C7C80;
-
-}

@@ -1,0 +1,26 @@
+footer {
+    margin: auto;
+    padding-top: 20px;
+    background-color: var(--light-gray2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  footer .footer-content-wrap {
+    max-width: 980px;
+  }
+  
+  footer .fine-print {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7C7C80;
+  
+  }
+  
+  footer .copyright-nav {
+    display: flex;
+    justify-content: space-between;
+  }
