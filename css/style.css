@@ -33,31 +33,51 @@
 }
 
 .top-menu li a,
-a:visited {
+.top-menu li a:visited {
   font-size: 12px;
   line-height: 44px;
   color: var(--menu-text);
-  padding: 0px 20px;
+  padding: 0px 23px;
   font-weight: 300;
 }
 
 .shop-now {
   display: flex;
   justify-content: center;
+  align-content: center;
   background-color: var(--red);
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 21px;
   padding: 10px;
+  height: 45px;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  justify-items: center;
   align-items: center;
 }
 
 section.main {
-  background-color: #FBEDF9;
+  background-color: #fbedf9;
+  padding: 35px;
+}
+
+.apple-logo {
+  background-image: url("/assets/images/logo__dcojfwkzna2q_medium_2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 90px;
+  width: 100px;
+  
+}
+
+section.iphone-pro {
+  max-height: 120vh;
+  min-height: 70vh;
+  background-image: url("/assets/images/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg");
+  background-position: center;
+  background-size: 80%;
 }
