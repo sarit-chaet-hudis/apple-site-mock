@@ -51,8 +51,9 @@ section.grid .homepod {
 section.grid .watch {
   background: #F5F5F7
     url("/assets/images/tile_watch__e9n11b6m6yq2_medium_2x.jpg") no-repeat
-    center ;
+    no-repeat center ;
   background-size: 80%;
+  background-position: bottom;
 }
 
 section.grid .watch .orange {
@@ -66,8 +67,9 @@ section.grid .watch img {
 
 section.grid .card {
     background: #fbfbfd url("/assets/images/tile__cauwwcyyn9hy_medium_2x.jpg") no-repeat
-      center ;
+     no-repeat center ;
     background-size: 80% ;
+    background-position: bottom;
   }
 
   section.grid .tv {
