@@ -1,5 +1,4 @@
 
-
 .top-menu {
   padding: 0;
   background-color: black;
@@ -20,7 +19,13 @@
   line-height: 40px;
   color: var(--menu-text);
   padding: 0px 21px;
-  font-weight: 300;
+  font-weight: lighter;
+  transition: all 0.2s ease-in;
+}
+
+.top-menu li a:hover {
+  transition: all 0.2s ease-in;
+  color: white;
 }
 
 .shop-now {
@@ -56,17 +61,20 @@ section.main {
 
 section div.image-wrapper {
   margin: 30px 0;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 section.iphone-pro {
   margin-top: 10px;
   padding-top: 35px;
   background-color: var(--whitish);
-  max-height: 120vh;
-  min-height: 70vh;
+  
   background-image: url("/assets/images/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg");
   background-position: center;
-  background-size: 80%;
+  background-size: 90%;
 }
 
 section.iphone-pro h2 {
@@ -78,8 +86,6 @@ section.iphone-13 {
   margin-top: 10px;
   padding-top: 35px;
   background-color: var(--whitish);
-  max-height: 120vh;
-  min-height: 70vh;
   background-image: url("/assets/images/hero_iphone_13__f194u1rdooeq_medium_2x.jpg");
   background-position: center;
   background-size: 80%;

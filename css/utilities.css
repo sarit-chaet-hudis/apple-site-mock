@@ -22,6 +22,7 @@
   padding: 0;
   margin: 0;
 }
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -33,22 +34,51 @@ li {
 
 h1 {
   font-size: 56px;
-  margin: 10px;
+  margin-top: 30px;
   letter-spacing: 0.1rem;
-
 }
 
-a.link , a.link:visited {
-  font-size: 20px;
-  color: var(--blue) ;
+h2 {
+  font-size: 30px;
+}
+
+/* links that are not in top / bottom bars */
+a.link,
+a.link:visited {
+  font-size: 22px;
+  color: var(--blue);
   letter-spacing: 0.05rem;
   display: inline;
   width: fit-content;
   white-space: nowrap;
+  line-height: 56px;
+  /* TODO: space before links */
 }
 
+a.link:hover {
+  text-decoration: underline;
+}
+
+/* custom link definitions for specific parts of page */
+.fine-print a.link, .fine-print a.link:visited {
+  color: var(--blue);
+font-size: inherit;
+}
+
+.shop-now a.link, .shop-now a.link:visited {
+  line-height: inherit;
+  font-size: inherit;
+}
+
+.grid a.link {
+  font-size: 18px;
+}
+
+
+/* general section settings */
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 700px;
 }
