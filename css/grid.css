@@ -52,7 +52,16 @@ section.grid .watch {
   background: #F5F5F7
     url("/assets/images/tile_watch__e9n11b6m6yq2_medium_2x.jpg") no-repeat
     center ;
-  background-size: cover;
+  background-size: 80%;
+}
+
+section.grid .watch .orange {
+  color: #CE7A47;
+}
+
+section.grid .watch img {
+  height: 65px;
+  padding-bottom: 10px;
 }
 
 section.grid .card {
@@ -68,7 +77,7 @@ section.grid .card {
     background-size: cover ;
     background-position-y: 20%;
     position: relative;
-    /* z-index: -10; */
+    z-index: -10;
     color: white;
     font-weight: normal;
   }
